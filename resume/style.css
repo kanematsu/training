@@ -1,0 +1,44 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+/* 要素セレクター */
+h1 {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+/* クラス セレクター */
+.experience {
+    font-style: italic;
+}
+
+/* 擬似クラス */
+a:hover {
+    background-color: yellow;
+}
+
+a:visited {
+    color: green;
+}
+
+a:link {
+    color: green;
+}
+
+/* ID セレクター */
+#social-media {
+    color: blue;
+}
