@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Message</title>
+</head>
+
+<body>
+    <script>
+        // 関数
+        function getMessage(name) {
+            return 'Hello, ' + name + '...';
+        }
+        const message = getMessage('Ornella');
+        document.write(message);
+
+        // 匿名関数
+        setTimeout(
+            () => { document.write('...Hello again!') },
+            2000
+        );
+    </script>
+</body>
+
+</html>
